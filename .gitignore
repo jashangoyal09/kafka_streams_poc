@@ -1,2 +1,8 @@
 *.class
 *.log
+project
+modules/**/project
+target
+.idea
+.worksheet
+.DS_Store
