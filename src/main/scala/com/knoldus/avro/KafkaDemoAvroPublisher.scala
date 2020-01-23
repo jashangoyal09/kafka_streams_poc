@@ -3,6 +3,7 @@ package com.knoldus.avro
 import java.util.{Properties, UUID}
 
 import io.confluent.kafka.serializers.KafkaAvroSerializer
+import org.apache.avro.generic.GenericRecord
 import org.apache.kafka.clients.producer.{KafkaProducer, ProducerConfig, ProducerRecord}
 import org.apache.kafka.common.serialization.StringSerializer
 
